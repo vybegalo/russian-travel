@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    max-width: 1184px;
+    max-height: 52px;
+    justify-content: space-between;
+    border: tomato solid 1px;
+    box-sizing: border-box;
+    margin: 28px 48px 6539px;
+}
+
+@media screen and (max-width: 568px) {
+    .header {
+        margin: 16px 16px 9965px;
+    }
+  }
