@@ -6,4 +6,20 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 26.08px;
+    border: springgreen solid 1px;
+}
+
+@media screen and (max-width: 920px) {
+    .intro__text {
+        max-width: 720px;
+        min-height: 208px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+    .intro__text {
+        max-width: 288px;
+        max-height: 520px;
+        margin-bottom: 34px;
+    }
 }

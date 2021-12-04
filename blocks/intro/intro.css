@@ -1,7 +1,9 @@
 .intro {
-    max-height: 429px;
     max-width: 690px;
+    min-height: 429px;
     margin: 0 442px 92px 148px;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 @media screen and (max-width: 1152px) {
@@ -12,16 +14,16 @@
 
 @media screen and (max-width: 920px) {
     .intro {
-        max-height: 429px;
         max-width: 720px;
+        min-height: 429px;
         margin: 0 24px 92px;
   }
 }
 
 @media screen and (max-width: 568px) {
     .intro {
-        max-height: 754px;
         max-width: 288px;
+        min-height: 754px;
         margin: 0 16px 64px;
     }
 }

@@ -11,16 +11,16 @@
 @media screen and (max-width: 1152px) {
     .lead__title {
         margin: 0 104px;
-        max-width: 720px;
-        max-height: 200px;
+        min-width: 720px;
+        min-height: 200px;
   }
 }
 
 @media screen and (max-width: 920px) {
     .lead__title {
         margin: 0 24px;
-        max-width: 720px;
-        max-height: 200px;
+        min-width: 720px;
+        min-height: 200px;
   }
 }
 
@@ -30,8 +30,8 @@
         margin-bottom: 0;
         margin-left: 18px;
         margin-right: 14px;
-        max-width: 288px;
-        max-height: 88px;
+        min-width: 288px;
+        min-height: 88px;
         font-size: 40px;
         font-weight: 900;
         line-height: 44px;
