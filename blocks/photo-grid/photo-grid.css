@@ -1,6 +1,4 @@
 .photo-grid {
-    max-width: 1184px;
-    min-height: 671px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
@@ -9,3 +7,27 @@
     box-sizing: border-box;
 
 }
+
+@media screen and (max-width: 1152px) {
+    .photo-grid {
+        grid-template-columns: repeat(3, minmax(300px, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(225px, 1fr));
+  }
+}
+
+@media screen and (max-width: 920px) {
+    .photo-grid {
+        grid-template-columns: repeat(2, minmax(352px, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(264px, 1fr));
+        margin: 0 24px 88px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+    .photo-grid {
+        grid-template-columns: repeat(1, minmax(288px, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(216px, 1fr));
+        margin: 0 16px 64px;
+  }
+}
+
