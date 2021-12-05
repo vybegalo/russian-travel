@@ -1,6 +1,6 @@
 .lead__title {
     max-width: 720px;
-    max-height: 200px;
+    min-height: 200px;
     margin: 0 132px;
     font-size: 96px;
     font-weight: 900;
@@ -11,7 +11,7 @@
 @media screen and (max-width: 1152px) {
     .lead__title {
         margin: 0 104px;
-        min-width: 720px;
+        max-width: 720px;
         min-height: 200px;
   }
 }
@@ -19,10 +19,12 @@
 @media screen and (max-width: 920px) {
     .lead__title {
         margin: 0 24px;
-        min-width: 720px;
+        max-width: 720px;
         min-height: 200px;
+        font-size: clamp(40px, 10 * (0.5vw + 1vh) / 2, 96px);
   }
 }
+
 
 @media screen and (max-width: 568px) {
     .lead__title {
