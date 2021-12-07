@@ -1,23 +1,13 @@
-# Проект: Путешествие по России
+# Project Yandex Praktikum "Russian Travelling"
 
-### Обзор
-* Интро
-* Figma
-* Картинки
+## Description
 
-**Интро**
+This is a repository which contains my third practical project work at [Yandex Praktikum "Frontend Developer"](https://practicum.yandex.ru/web/) course. At the moment the source code of this repo represents adaptive html/css techniques to follow *rubber layout* approach.
 
-Здесь будет проект о путешествии по России.
-В Фигме мы разместили макет, в котором видно, как проект должен выглядеть на самых распространённых разрешениях экранов.
-Этот проект сложнее предыдущих, постарайтесь уделить ему больше времени.
+## Technologies used
 
-**Figma**
+In order to make the layout "rubber" I used `@media` queries and put down a set of break points for different screen widths: 1280px, 1024px, 768px, 320px. Here for the main part of the web site I used `grid` for the proper layout.
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+## Github pages
 
-**Картинки**
-
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
-
-Удачи!
+You can check out how this web site looks like following this link [Russian Travelling](http://example.com)
