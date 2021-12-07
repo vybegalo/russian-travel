@@ -13,7 +13,7 @@
         margin: 0 104px;
         max-width: 720px;
         min-height: 200px;
-  }
+    }
 }
 
 @media screen and (max-width: 920px) {
@@ -22,7 +22,7 @@
         max-width: 720px;
         min-height: 200px;
         font-size: clamp(40px, 10 * (0.5vw + 1vh) / 2, 96px);
-  }
+    }
 }
 
 

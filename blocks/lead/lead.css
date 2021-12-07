@@ -11,7 +11,7 @@
         max-width: 928px;
         min-height: 962px;
         margin: 0 48px 92px;
-  }
+    }
 }
 
 @media screen and (max-width: 920px) {
@@ -19,7 +19,7 @@
         max-width: 768px;
         min-height: 862px;
         margin: 0 0 88px;
-  }
+    }
 }
 
 @media screen and (max-width: 568px) {

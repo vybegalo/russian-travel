@@ -10,14 +10,14 @@
 @media screen and (max-width: 1152px) {
     .photo-grid {
         gap: 14px;
-  }
+    }
 }
 
 @media screen and (max-width: 920px) {
     .photo-grid {
         margin: 0 24px 88px;
         gap: 16px;
-  }
+    }
 }
 
 @media screen and (max-width: 568px) {
@@ -25,6 +25,6 @@
         max-width: 288px;
         margin: 0 16px 64px;
         gap: 12px;
-  }
+    }
 }
 

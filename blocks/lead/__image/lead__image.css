@@ -12,7 +12,7 @@
         max-width: 928px;
         min-height: 580px;
         background-size: cover;
-  }
+    }
 }
 
 @media screen and (max-width: 920px) {
@@ -20,7 +20,7 @@
         max-width: 768px;
         min-height: 480px;
         background-size: cover;
-  }
+    }
 }
 
 @media screen and (max-width: 568px) {

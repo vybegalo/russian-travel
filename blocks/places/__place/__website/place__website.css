@@ -3,21 +3,6 @@
     justify-self: start;
 }
 
-/* .place__website:first-of-type {
-    margin-top: 106px;
-}
-
-@media screen and (max-width: 920px) {
-    .place__website:first-of-type {
-        margin: 46px;
-    }
-    .place__website {
-        margin-top: 0;
-    }
-}
-
-*/
-
 @media screen and (max-width: 568px) {
     .place__website:first-of-type {
         margin: 0 16px 0 16px;
