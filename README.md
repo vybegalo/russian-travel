@@ -10,4 +10,4 @@ In order to make the layout "rubber" I used `@media` queries and put down a set 
 
 ## Github pages
 
-You can check out how this web site looks like following this link [Russian Travel](http://example.com)
+You can check out how this web site looks like following this link [Russian Travel](https://vybegalo.github.io/russian-travel/)
