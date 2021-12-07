@@ -1,4 +1,4 @@
-.place__url-heading {
+.places__url-heading {
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 920px) {
-    .place__url-heading {
+    .places__url-heading {
         font-size: 12px;
         line-height: 12px;
     }
