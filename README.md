@@ -1,4 +1,4 @@
-# Project Yandex Praktikum "Russian Travelling"
+# Project Yandex Praktikum "Russian Travel"
 
 ## Description
 
@@ -10,4 +10,4 @@ In order to make the layout "rubber" I used `@media` queries and put down a set 
 
 ## Github pages
 
-You can check out how this web site looks like following this link [Russian Travelling](http://example.com)
+You can check out how this web site looks like following this link [Russian Travel](http://example.com)
