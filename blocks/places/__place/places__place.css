@@ -4,8 +4,8 @@
     display: grid;
     gap: 48px 40px;
     margin-top: 80px;
-    grid-template-columns:  1fr 1fr;
-    grid-template-rows: minmax(min-content, max-content) 1fr;
+    grid-template-columns:  1fr minmax(min-content, max-content);
+    grid-template-rows: auto auto;
 }
 
 .places__place:first-of-type {
@@ -28,8 +28,8 @@
 @media screen and (max-width: 568px) {
     .places__place {
         max-width: 320px;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: minmax(min-content, max-content);
+        grid-template-rows: auto;
         gap: 32px;
         margin-top: 64px;
   }
