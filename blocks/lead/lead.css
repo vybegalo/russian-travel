@@ -1,7 +1,6 @@
 .lead {
     box-sizing: border-box;
     max-width: 984px;
-    max-height: 1005px;
     margin: 0 148px 92px;
     overflow: hidden;
 }
@@ -9,7 +8,6 @@
 @media screen and (max-width: 1152px) {
     .lead {
         max-width: 928px;
-        min-height: 962px;
         margin: 0 48px 92px;
     }
 }
@@ -17,7 +15,6 @@
 @media screen and (max-width: 920px) {
     .lead {
         max-width: 768px;
-        min-height: 862px;
         margin: 0 0 88px;
     }
 }
@@ -25,7 +22,6 @@
 @media screen and (max-width: 568px) {
     .lead {
         max-width: 320px;
-        min-height: 406px;
         margin: 0 0 64px;
     }
 }
