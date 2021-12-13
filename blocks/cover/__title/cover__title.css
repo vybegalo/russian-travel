@@ -9,12 +9,6 @@
 }
 
 
-@media screen and (max-width: 920px) {
-    .cover__title {
-        font-size: clamp(16px, 10 * (0.5vw + 1vh) / 2, 72px);
-    }
-}
-
 @media screen and (max-width: 568px) {
     .cover__title {
         max-width: 288px;

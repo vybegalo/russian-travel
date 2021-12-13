@@ -1,6 +1,5 @@
 .lead__image {
-    background-image: url(../../../images/lead-polka.jpg);
-    max-width: 984px;
+    width: 100%;
     min-height: 615px;
     background-size: cover;
     margin: auto;
@@ -9,7 +8,6 @@
 
 @media screen and (max-width: 1152px) {
     .lead__image {
-        max-width: 928px;
         min-height: 580px;
         background-size: cover;
     }
@@ -17,16 +15,12 @@
 
 @media screen and (max-width: 920px) {
     .lead__image {
-        max-width: 768px;
         min-height: 480px;
-        background-size: cover;
     }
 }
 
 @media screen and (max-width: 568px) {
     .lead__image {
-        max-width: 320px;
         min-height: 200px;
-        background-size: cover;
     }
 }

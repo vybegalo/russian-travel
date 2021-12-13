@@ -6,6 +6,7 @@
     background-image: url(../../../images/cover-trains.jpg);
     background-size: cover;
     display: flex;
+    background-position: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -32,12 +33,14 @@
 
 @media screen and (max-width: 1152px) {
     .cover__item {
+        max-width: 1024px;
         min-height: 640px;
     }
 }
 
 @media screen and (max-width: 920px) {
     .cover__item {
+        max-width: 768px;
         min-height: 480px;
     }
 }

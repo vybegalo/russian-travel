@@ -24,7 +24,6 @@
     .places__paragraph {
         max-width: 352px;
         font-size: 16px;
-        line-height: 163%;
-        margin: 0 16px 25px 16px;
+        margin: 0 16px 0 16px;
     }
 }
