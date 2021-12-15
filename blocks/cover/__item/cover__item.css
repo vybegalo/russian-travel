@@ -42,6 +42,7 @@
     .cover__item {
         max-width: 768px;
         min-height: 480px;
+        margin: auto;
     }
 }
 
