@@ -19,9 +19,9 @@
     }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 727px) {
     .lead__title {
-        font-size: clamp(40px, 10 * (1.5vw + 1vh) / 2, 96px);
+        font-size: 40px;
     }
 }
 
